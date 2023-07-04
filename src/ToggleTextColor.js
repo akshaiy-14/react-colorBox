@@ -1,9 +1,13 @@
 import React from 'react';
 import "./ToggleTextColor.css";
 
-const ToggleTextColor = ( {changeTextColor} ) => {
+const ToggleTextColor = ( {changeTextColor, toggleBorder} ) => {
   return (
-    <button onClick={changeTextColor}> Toggle Text Color </button>
+    <div>
+        <button className="forText" onClick={changeTextColor}> Toggle Text Color </button>
+        <button className="forBorder" onClick={toggleBorder}> Toggle border </button>
+    </div>
+    
   )
 }
 

@@ -1,4 +1,15 @@
-button {
+button.forText {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  button.forBorder {
     position: absolute;
     top: 80%;
     left: 50%;
