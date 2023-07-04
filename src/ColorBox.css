@@ -1,0 +1,15 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    border: 1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
